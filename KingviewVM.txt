@@ -1,15 +1,73 @@
+=================================================================
+说明
+=================================================================
 ###此文档是针对CEMS系统组态王配置的版本更新内容
 ###目前版本为KingView For Standard CEMS 1.0.1.8
 ###文件以.cmp为后缀的文件
 ###每次升级内容更新后增加末尾版本号数字
-=================================================================
-KingView For Standard CEMS 1.0.1.8更新内容
+
+###更新内容结构
 --代码更新--
-  +时间命令语言
-  +应用程序命令语言
+  +事件命令语言
+    +StartRefLable==1
+	  发生时
+	  存在时
+	  消失时
+    +StopSampleLable==1
+	  发生时
+	  存在时
+	  消失时
+    +StartSampleLable==1
+	  发生时
+	  存在时
+	  消失时
+    +烟气温度报警==0&&待机动作执行==0&&时==08&&分==59&&秒==20
+	  发生时
+	  存在时
+	  消失时
+    +分==59&&秒==15
+	  发生时
+	  存在时
+	  消失时
+    +时==23&&分==59&&秒==45
+	  发生时
+	  存在时
+	  消失时
+    +分==59&&秒==01
+	  发生时
+	  存在时
+	  消失时
+    +设备通讯报警==0
+	  发生时
+	  存在时
+	  消失时
+    +设备通讯报警==0&&定时反吹电磁阀==0&&定时后吹扫==0&&烟气温度报警==0&&待机动作执行==0
+	  发生时
+	  存在时
+	  消失时
+    +烟气温度报警==1&&待机动作执行==1
+	  发生时
+	  存在时
+	  消失时
+  应用程序命令语言
 --变量更新--
   +Control
+    CtrlLable
+    MBGAS3000Ctrl
+    MBGAS3000Alarm
+    PLCAlarm
+    PLCValveCtr
   +Measurement
+    MBGAS3000MeasureValues
+    MBGAS3000HealthValue
+    MBGAS3000RefValue
+    MBGAS3000Parameter
+    PLCMeasurement
+    KSpan
+  +auxillary
+    ValveTimer
+    复选框
+    Report
 --驱动更新--
   MBGAS3000
   S7Ppi
@@ -33,3 +91,38 @@ KingView For Standard CEMS 1.0.1.8更新内容
 --系统配置更新--
   设置运行系统
   用户配置
+  
+将更新的内容增加到相应的结构中
+=================================================================
+KingView For Standard CEMS 1.0.1.8更新内容
+=================================================================
+--代码更新--
+  +事件命令语言
+    +StartRefLable==1
+	  发生时
+	  存在时
+	  消失时
+    +StopSampleLable==1
+	  发生时
+	  存在时
+	  消失时
+    +StartSampleLable==1
+	  发生时
+	  存在时
+	  消失时
+--变量更新--
+  +Control
+    CtrlLable
+    MBGAS3000Ctrl
+	PLCValveCtr
+  +Measurement
+    MBGAS3000MeasureValues
+    PLCMeasurement
+--驱动更新--
+  MBGAS3000
+--画面更新--
+  HomePage
+  ParameterSetting
+--设备更新--
+  S7200PLC
+  MBGAS3000
