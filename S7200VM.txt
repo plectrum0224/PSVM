@@ -1,0 +1,59 @@
+=================================================================
+说明
+###此文档是针对CEMS系统S7-200型PLC版本更新内容
+###文件以.mwp为后缀的文件
+###每次升级内容更新后增加末尾版本号数字
+符号说明
+###双冒号后面为更新内容::
+###双横线为代码结构--
+###加号为父级层+
+
+###更新内容结构
+--代码更新--
+   Main
+   Alarm
+   Remove_Alarm
+   Operation
+   Remove_Operation
+   Maintenance
+   Remove_Maintenance
+   Collect_Datas
+   Collect_Alarm
+   Define_Action
+   Define_Logic
+   Manual_without_Alarm
+   Manual_with_Ana_Alarm
+   Manual_with_Probe_Alarm
+   AO_AI
+   TD400C
+   标态计算
+   MODBUS_Slave
+   Profibus_DP
+   Float_To_Int
+--库--
+   S_ITR
+   S_RTI
+   标干烟气流量
+   MBUS_INIT
+   MBUS_SLAVE
+--文本显示向导--
+   +配置
+   +用户菜单
+   +报警
+--系统块--
+   通信端口
+   断电数据保持
+   密码
+   输出表
+   输入滤波器
+   脉冲捕捉器
+   背景时间
+   EM配置
+   LED配置
+   增加存储区
+--数据块--
+--符号表--
+
+================================================================= 
+将更新的内容增加到相应的结构中
+=================================================================
