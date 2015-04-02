@@ -133,3 +133,8 @@ KingView For Standard CEMS 1.0.1.8更新内容
   MBGAS3000
   ::在设备地址处增加/ALL_MSG
 =================================================================
+KingView For Standard CEMS 1.0.1.9更新内容
+--代码更新--
+  +事件命令语言
+    +StopSampleLable==1
+	::见StopSampleLable文件
