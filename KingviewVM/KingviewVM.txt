@@ -138,3 +138,5 @@ KingView For Standard CEMS 1.0.1.9更新内容
   +事件命令语言
     +StopSampleLable==1
 	::见StopSampleLable文件
+    +StartSampleLable==1
+	::见StartSampleLable文件
