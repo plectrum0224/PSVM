@@ -140,3 +140,15 @@ KingView For Standard CEMS 1.0.1.9更新内容
 	::见StopSampleLable文件
     +StartSampleLable==1
 	::见StartSampleLable文件
+--画面更新--
+  +HomePage
+       将不用实测浓度增加横线
+  +ParameterSetting
+       将表格空白处改为横线
+       将系统运行按钮的说明进行了修改
+--系统配置更新--
+  -设置运行系统
+       窗口外观取消了“可变大小边框”，菜单取消了“画面”
+  +用户配置       
+       超级管理员密码更改为“654321”
+  
